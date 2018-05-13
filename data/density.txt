@@ -1,0 +1,11 @@
+set term png truecolor size 800, 600
+
+set output 'density-a.png'
+set style fill solid 0.5
+bin(x,width)=width*floor(x/width)+binwidth/2.0
+f_inner_a(x)=c_inner_a/sqrt(2*3.1416)/sigma_inner_a*exp(-(x-mu_inner_a)**2/2/sigma_inner_a/sigma_inner_a)
+c_inner_a=20000
+mu_inner_a=0.85
+sigma_inner_a=0.07
+fit f_inner_a(x) "inner_log(a).txt" using 1:2 via c_inner_a,mu_inner_a,sigma_inner_a
+plot "inner_log(a).txt" using 1:2 with boxes lt 1 lc rgb "red" title "", f_inner_a(x) with lines rgb "black" title ""

@@ -1,0 +1,342 @@
+
+
+*******************************************************************************
+Sat Apr 14 20:48:33 2018
+
+
+FIT:    data read from "inner_log(a).txt" using 1:2
+        format = x:z
+        #datapoints = 500
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_inner_a(x)
+	f_inner_a(x)=c_inner_a/sqrt(2*3.1416)/sigma_inner_a*exp(-(x-mu_inner_a)**2/2/sigma_inner_a/sigma_inner_a)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   c_inner_a     mu_inner_a    sigma_inner_a
+   0 3.2765810328e+12   0.00e+00  3.53e+05    2.000000e+04   8.500000e-01   7.000000e-02
+   8 3.0641522664e+04  -2.14e-02  3.53e-03    9.142320e+00   8.450957e-01   4.145957e-02
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 30641.5
+rel. change during last iteration : -2.14312e-07
+
+degrees of freedom    (FIT_NDF)                        : 497
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.85194
+variance of residuals (reduced chisquare) = WSSR/ndf   : 61.653
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+c_inner_a       = 9.14232          +/- 0.08291      (0.9068%)
+mu_inner_a      = 0.845096         +/- 0.0004234    (0.0501%)
+sigma_inner_a   = 0.0414596        +/- 0.0004544    (1.096%)
+
+correlation matrix of the fit parameters:
+                c_inne mu_inn sigma_ 
+c_inner_a       1.000 
+mu_inner_a      0.090  1.000 
+sigma_inner_a   0.637  0.106  1.000 
+
+
+*******************************************************************************
+Sat Apr 14 20:48:33 2018
+
+
+FIT:    data read from "central_log(a).txt" using 1:2
+        format = x:z
+        #datapoints = 500
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_central_a(x)
+	f_central_a(x)=c_central_a/sqrt(2*3.1416)/sigma_central_a*exp(-(x-mu_central_a)**2/2/sigma_central_a/sigma_central_a)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   c_central_a   mu_central_a  sigma_central
+   0 5.0180060114e+12   0.00e+00  3.77e+05    2.000000e+04   9.600000e-01   7.000000e-02
+  14 3.9728160375e+04  -5.49e-02  3.77e-04    4.710336e+00   9.665039e-01   4.393241e-02
+
+After 14 iterations the fit converged.
+final sum of squares of residuals : 39728.2
+rel. change during last iteration : -5.48886e-07
+
+degrees of freedom    (FIT_NDF)                        : 497
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.94069
+variance of residuals (reduced chisquare) = WSSR/ndf   : 79.9359
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+c_central_a     = 4.71034          +/- 0.1029       (2.184%)
+mu_central_a    = 0.966504         +/- 0.0009178    (0.09496%)
+sigma_central_a = 0.0439324        +/- 0.001246     (2.835%)
+
+correlation matrix of the fit parameters:
+                c_cent mu_cen sigma_ 
+c_central_a     1.000 
+mu_central_a   -0.307  1.000 
+sigma_central_a 0.833 -0.315  1.000 
+
+
+*******************************************************************************
+Sat Apr 14 20:48:34 2018
+
+
+FIT:    data read from "outer_log(a).txt" using 1:2
+        format = x:z
+        #datapoints = 500
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_outer_a(x)
+	f_outer_a(x)=c_outer_a/sqrt(2*3.1416)/sigma_outer_a*exp(-(x-mu_outer_a)**2/2/sigma_outer_a/sigma_outer_a)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   c_outer_a     mu_outer_a    sigma_outer_a
+   0 4.6680070075e+12   0.00e+00  4.75e+05    2.000000e+04   1.120000e+00   7.000000e-02
+  12 7.6331961517e+03  -2.76e-01  4.75e-07    1.374698e+00   1.120704e+00   3.745912e-02
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 7633.2
+rel. change during last iteration : -2.75703e-06
+
+degrees of freedom    (FIT_NDF)                        : 497
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.919
+variance of residuals (reduced chisquare) = WSSR/ndf   : 15.3585
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+c_outer_a       = 1.3747           +/- 0.03256      (2.368%)
+mu_outer_a      = 1.1207           +/- 0.000987     (0.08807%)
+sigma_outer_a   = 0.0374591        +/- 0.001087     (2.901%)
+
+correlation matrix of the fit parameters:
+                c_oute mu_out sigma_ 
+c_outer_a       1.000 
+mu_outer_a      0.079  1.000 
+sigma_outer_a   0.651  0.085  1.000 
+
+
+*******************************************************************************
+Sat Apr 14 20:48:34 2018
+
+
+FIT:    data read from "inner_sin(inc).txt" using 1:2
+        format = x:z
+        #datapoints = 500
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_inner_i(x)
+	f_inner_i(x)=c_inner_i/sqrt(2*3.1416)/sigma_inner_i*exp(-(x-mu_inner_i)**2/2/sigma_inner_i/sigma_inner_i)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   c_inner_i     mu_inner_i    sigma_inner_i
+   0 8.7564808272e+11   0.00e+00  3.89e+04    2.000000e+04   1.000000e-01   7.000000e-02
+   9 1.8114107991e+05  -1.41e-01  3.89e-05    3.079031e+01   8.598299e-02   4.865016e-02
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 181141
+rel. change during last iteration : -1.40693e-06
+
+degrees of freedom    (FIT_NDF)                        : 497
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 19.0911
+variance of residuals (reduced chisquare) = WSSR/ndf   : 364.469
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+c_inner_i       = 30.7903          +/- 0.4343       (1.41%)
+mu_inner_i      = 0.085983         +/- 0.0007742    (0.9004%)
+sigma_inner_i   = 0.0486502        +/- 0.0008274    (1.701%)
+
+correlation matrix of the fit parameters:
+                c_inne mu_inn sigma_ 
+c_inner_i       1.000 
+mu_inner_i     -0.078  1.000 
+sigma_inner_i   0.631 -0.103  1.000 
+
+
+*******************************************************************************
+Sat Apr 14 20:48:34 2018
+
+
+FIT:    data read from "central_sin(inc).txt" using 1:2
+        format = x:z
+        #datapoints = 500
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_central_i(x)
+	f_central_i(x)=c_central_i/sqrt(2*3.1416)/sigma_central_i*exp(-(x-mu_central_i)**2/2/sigma_central_i/sigma_central_i)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   c_central_i   mu_central_i  sigma_central
+   0 1.0421698428e+12   0.00e+00  4.23e+04    2.000000e+04   1.000000e-01   7.000000e-02
+   8 1.2189745478e+05  -7.61e-01  4.23e-04    2.583531e+01   1.518439e-01   1.044498e-01
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 121897
+rel. change during last iteration : -7.60593e-06
+
+degrees of freedom    (FIT_NDF)                        : 497
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 15.661
+variance of residuals (reduced chisquare) = WSSR/ndf   : 245.267
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+c_central_i     = 25.8353          +/- 0.5186       (2.008%)
+mu_central_i    = 0.151844         +/- 0.002331     (1.535%)
+sigma_central_i = 0.10445          +/- 0.002589     (2.479%)
+
+correlation matrix of the fit parameters:
+                c_cent mu_cen sigma_ 
+c_central_i     1.000 
+mu_central_i   -0.203  1.000 
+sigma_central_i 0.692 -0.239  1.000 
+
+
+*******************************************************************************
+Sat Apr 14 20:48:34 2018
+
+
+FIT:    data read from "outer_sin(inc).txt" using 1:2
+        format = x:z
+        #datapoints = 500
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_outer_i(x)
+	f_outer_i(x)=c_outer_i/sqrt(2*3.1416)/sigma_outer_i*exp(-(x-mu_outer_i)**2/2/sigma_outer_i/sigma_outer_i)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   c_outer_i     mu_outer_i    sigma_outer_i
+   0 8.7526408946e+11   0.00e+00  3.88e+04    2.000000e+04   1.000000e-01   7.000000e-02
+   8 8.8480763071e+03  -9.83e-02  3.88e-04    8.579467e+00   1.733784e-01   1.225706e-01
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 8848.08
+rel. change during last iteration : -9.83073e-07
+
+degrees of freedom    (FIT_NDF)                        : 497
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.21936
+variance of residuals (reduced chisquare) = WSSR/ndf   : 17.803
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+c_outer_i       = 8.57947          +/- 0.1671       (1.947%)
+mu_outer_i      = 0.173378         +/- 0.002651     (1.529%)
+sigma_outer_i   = 0.122571         +/- 0.002951     (2.408%)
+
+correlation matrix of the fit parameters:
+                c_oute mu_out sigma_ 
+c_outer_i       1.000 
+mu_outer_i     -0.219  1.000 
+sigma_outer_i   0.698 -0.254  1.000 
+
+
+*******************************************************************************
+Sat Apr 14 20:48:34 2018
+
+
+FIT:    data read from "inner_e.txt" using 1:2
+        format = x:z
+        #datapoints = 500
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_inner_e(x)
+	f_inner_e(x)=c_inner_e/sqrt(2*3.1416)/sigma_inner_e*exp(-(x-mu_inner_e)**2/2/sigma_inner_e/sigma_inner_e)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   c_inner_e     mu_inner_e    sigma_inner_e
+   0 9.0704318177e+11   0.00e+00  5.95e+04    2.000000e+04   2.000000e-01   7.000000e-02
+   8 3.2634797241e+04  -1.75e-03  5.95e+02    3.592081e+01   1.461274e-01   6.186431e-02
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 32634.8
+rel. change during last iteration : -1.75296e-08
+
+degrees of freedom    (FIT_NDF)                        : 497
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.10331
+variance of residuals (reduced chisquare) = WSSR/ndf   : 65.6636
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+c_inner_e       = 35.9208          +/- 0.197        (0.5485%)
+mu_inner_e      = 0.146127         +/- 0.0003901    (0.2669%)
+sigma_inner_e   = 0.0618643        +/- 0.0003955    (0.6392%)
+
+correlation matrix of the fit parameters:
+                c_inne mu_inn sigma_ 
+c_inner_e       1.000 
+mu_inner_e     -0.009  1.000 
+sigma_inner_e   0.585 -0.014  1.000 
+
+
+*******************************************************************************
+Sat Apr 14 20:48:34 2018
+
+
+FIT:    data read from "central_e.txt" using 1:2
+        format = x:z
+        #datapoints = 500
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_central_e(x)
+	f_central_e(x)=c_central_e/sqrt(2*3.1416)/sigma_central_e*exp(-(x-mu_central_e)**2/2/sigma_central_e/sigma_central_e)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   c_central_e   mu_central_e  sigma_central
+   0 8.2944551056e+11   0.00e+00  5.68e+04    2.000000e+04   2.000000e-01   7.000000e-02
+   6 1.8672342474e+04  -6.80e-01  5.68e-02    3.220331e+01   1.498377e-01   8.477191e-02
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 18672.3
+rel. change during last iteration : -6.80194e-06
+
+degrees of freedom    (FIT_NDF)                        : 497
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.12945
+variance of residuals (reduced chisquare) = WSSR/ndf   : 37.5701
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+c_central_e     = 32.2033          +/- 0.1914       (0.5943%)
+mu_central_e    = 0.149838         +/- 0.0005684    (0.3793%)
+sigma_central_e = 0.0847719        +/- 0.0006077    (0.7168%)
+
+correlation matrix of the fit parameters:
+                c_cent mu_cen sigma_ 
+c_central_e     1.000 
+mu_central_e   -0.079  1.000 
+sigma_central_e 0.631 -0.104  1.000 
+
+
+*******************************************************************************
+Sat Apr 14 20:48:35 2018
+
+
+FIT:    data read from "outer_e.txt" using 1:2
+        format = x:z
+        #datapoints = 500
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_outer_e(x)
+	f_outer_e(x)=c_outer_e/sqrt(2*3.1416)/sigma_outer_e*exp(-(x-mu_outer_e)**2/2/sigma_outer_e/sigma_outer_e)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   c_outer_e     mu_outer_e    sigma_outer_e
+   0 9.0907927330e+11   0.00e+00  5.94e+04    2.000000e+04   2.000000e-01   7.000000e-02
+   7 6.1061581748e+03  -2.28e-02  5.94e-03    7.944630e+00   1.744529e-01   7.750651e-02
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 6106.16
+rel. change during last iteration : -2.28276e-07
+
+degrees of freedom    (FIT_NDF)                        : 497
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.50514
+variance of residuals (reduced chisquare) = WSSR/ndf   : 12.286
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+c_outer_e       = 7.94463          +/- 0.09602      (1.209%)
+mu_outer_e      = 0.174453         +/- 0.001073     (0.6152%)
+sigma_outer_e   = 0.0775065        +/- 0.001099     (1.418%)
+
+correlation matrix of the fit parameters:
+                c_oute mu_out sigma_ 
+c_outer_e       1.000 
+mu_outer_e     -0.017  1.000 
+sigma_outer_e   0.592 -0.026  1.000 
